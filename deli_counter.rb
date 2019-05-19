@@ -14,5 +14,9 @@ end
 
 def now_serving(katz_deli)
   current = katz_deli.pop
-  puts "Currently serving #{current}."
+  if katz_deli.length == 0
+    puts "The line is currently empty."
+  else
+    puts "Currently serving #{current}."
+  end
 end
