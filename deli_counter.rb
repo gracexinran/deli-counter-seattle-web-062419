@@ -6,7 +6,8 @@ def line(katz_deli)
     line = ""
     katz_deli.length.times do |i|
       line += "#{i+1}. #{katz_deli[i] } "
-    puts "The line is currently: #{line}"
+      puts "The line is currently: #{line}"
+    end
   end
 end
 
